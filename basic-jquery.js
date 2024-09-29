@@ -19,3 +19,6 @@
 
 let name = "collage";
 console.log(name);
+
+let num = -0.1234;
+console.log(num);
