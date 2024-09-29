@@ -11,3 +11,11 @@
 //    $("h1").css("color", "blue");
 
 // });
+
+// Basic of JQuery
+// ==============
+
+// string
+
+let name = "collage";
+console.log(name);
