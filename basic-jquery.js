@@ -38,4 +38,20 @@ const employ = {
    age: 30
 };
 
-console.log(employ.age);
+employ.name = "faarax";
+
+console.log(employ.name);
+
+// array 
+
+let arr = ["sahra", "xasan", "asma", "suhyb"];
+
+// console.log(arr);
+
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+// }
+
+// arr.map((array) => {
+//     console.log(array);
+// });
