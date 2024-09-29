@@ -55,3 +55,6 @@ let arr = ["sahra", "xasan", "asma", "suhyb"];
 // arr.map((array) => {
 //     console.log(array);
 // });
+
+// Basic methods
+// ==============
