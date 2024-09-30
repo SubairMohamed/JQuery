@@ -62,6 +62,8 @@ let arr = ["sahra", "xasan", "asma", "suhyb"];
 $(function () {
 
    $("button").addClass("btn btn-primary");
-   $("h1").addClass("text-primary fs-1 text-decoration-underline");
+   //$("h1").addClass("text-primary fs-1 text-decoration-underline");
    $("button").addClass("animate__animated animate__shakeY");
+   $("h1").css("color", "green");
+   $("h1").css("textTransform", "uppercase");
 });
