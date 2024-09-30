@@ -58,3 +58,8 @@ let arr = ["sahra", "xasan", "asma", "suhyb"];
 
 // Basic methods
 // ==============
+
+$(function () {
+
+   $("button").addClass("btn btn-primary");
+});
