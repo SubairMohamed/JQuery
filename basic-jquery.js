@@ -66,4 +66,5 @@ $(function () {
    $("button").addClass("animate__animated animate__shakeY");
    $("h1").css("color", "green");
    $("h1").css("textTransform", "uppercase");
+   $("button").prop("disabled", true);
 });
