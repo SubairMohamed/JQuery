@@ -61,13 +61,16 @@ let arr = ["sahra", "xasan", "asma", "suhyb"];
 
 $(function () {
 
-   $("button").addClass("btn btn-primary");
+   $("#btn-title").addClass("btn btn-primary");
    //$("h1").addClass("text-primary fs-1 text-decoration-underline");
-   $("button").addClass("animate__animated animate__shakeY");
+   $("#btn-title").addClass("animate__animated animate__shakeY");
    $("h1").css("color", "green");
    $("h1").css("textTransform", "uppercase");
    $("button").prop("disabled", true);
    $("p").html("<strong>maxamed</strong>");
    //$("button").remove();
-   $("button").removeClass();
+   $("#btn-title").removeClass();
+
+   // simple
+   $(".btn").addClass("btn btn-info");
 });
