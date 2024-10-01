@@ -69,5 +69,5 @@ $(function () {
    $("button").prop("disabled", true);
    $("p").html("<strong>maxamed</strong>");
    //$("button").remove();
-
+   $("button").removeClass();
 });
