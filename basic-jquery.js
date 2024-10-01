@@ -68,6 +68,6 @@ $(function () {
    $("h1").css("textTransform", "uppercase");
    $("button").prop("disabled", true);
    $("p").html("<strong>maxamed</strong>");
-
+   //$("button").remove();
 
 });
