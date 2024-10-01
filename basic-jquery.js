@@ -77,4 +77,8 @@ $(function () {
    $("#left").css("padding", "1rem");
    $("#left").css("margin", "2rem");
    $("#left").css("display", "inline");
+
+   $("#right").css("background-color", "brown");
+   $("#right").css("padding", "1rem");
+   $("#right").css("margin", "2rem");
 });
