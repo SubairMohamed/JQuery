@@ -75,4 +75,6 @@ $(function () {
    $(".btn").addClass("btn btn-info");
    $("#left").css("background-color", "gray");
    $("#left").css("padding", "1rem");
+   $("#left").css("margin", "2rem");
+   $("#left").css("display", "inline");
 });
