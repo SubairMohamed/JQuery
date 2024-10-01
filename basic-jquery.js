@@ -82,4 +82,7 @@ $(function () {
    $("#right").css("padding", "2rem");
    $("#right").css("margin", "2rem");
    $("#right").css("display", "inline");
+
+   $("#target-1").appendTo("#right");
+   $("#target-4").appendTo("#left");
 });
