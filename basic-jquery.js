@@ -85,4 +85,5 @@ $(function () {
 
    $("#target-1").appendTo("#right");
    $("#target-4").appendTo("#left");
+   $("#target-1").clone().appendTo("#left");
 });
