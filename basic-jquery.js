@@ -66,7 +66,7 @@ $(function () {
    $("#btn-title").addClass("animate__animated animate__shakeY");
    $("h1").css("color", "green");
    $("h1").css("textTransform", "uppercase");
-   $("button").prop("disabled", true);
+   //$("button").prop("disabled", true);
    $("p").html("<strong>maxamed</strong>");
    //$("button").remove();
    $("#btn-title").removeClass();
@@ -74,11 +74,12 @@ $(function () {
    // simple
    $(".btn").addClass("btn btn-info");
    $("#left").css("background-color", "gray");
-   $("#left").css("padding", "1rem");
+   $("#left").css("padding", "2rem");
    $("#left").css("margin", "2rem");
    $("#left").css("display", "inline");
 
    $("#right").css("background-color", "brown");
-   $("#right").css("padding", "1rem");
+   $("#right").css("padding", "2rem");
    $("#right").css("margin", "2rem");
+   $("#right").css("display", "inline");
 });
