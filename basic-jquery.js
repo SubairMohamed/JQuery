@@ -90,3 +90,13 @@ $(function () {
    $(".btn:nth-child(2)").addClass("animate__animated animate__swing");
    $(".btn:odd").addClass("btn-danger");
 });
+
+$(function () {
+
+   let txtReplace = "soo dhawaada dhamaantiin";
+   
+   $("h2").click( function () {
+      $("div").text(txtReplace);
+   });
+
+});
