@@ -88,4 +88,5 @@ $(function () {
    //$("#target-1").clone().appendTo("#left");
 
    $(".btn:nth-child(2)").addClass("animate__animated animate__swing");
+   $(".btn:odd").addClass("btn-danger");
 });
