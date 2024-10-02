@@ -93,10 +93,13 @@ $(function () {
 
 $(function () {
 
-   let txtReplace = "soo dhawaada dhamaantiin";
+   //let txtReplace = "soo dhawaada dhamaantiin";
+   var num = 0;
    
    $("h2").click( function () {
-      $("div").text(txtReplace);
+      $("div").text(num);
+      num++;
+      if (num <= 1) {num + 1}
    });
 
 });
