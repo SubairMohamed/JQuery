@@ -133,6 +133,10 @@ $(function () {
    //specific index for image
    let arrImg = ["./img/apple.jpg", "./img/banana.jpg", "./img/guava.jpg"];
    let Num = 0;
-   
+   $("img").click(function () {
+      $("img").attr("src", arrImg[Num]);
+      Num++; 
+      if (Num > 2) {Num = 0}
+   });
 
 });
