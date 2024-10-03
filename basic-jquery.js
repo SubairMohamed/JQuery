@@ -67,7 +67,7 @@ $(function () {
    $("h1").css("color", "green");
    $("h1").css("textTransform", "uppercase");
    //$("button").prop("disabled", true);
-   $("p").html("<strong>maxamed</strong>");
+   //$("p").html("<strong>maxamed</strong>");
    //$("button").remove();
    $("#btn-title").removeClass();
 
@@ -118,7 +118,10 @@ $(function () {
    let twoTxt = txt1 + txt2;
 
    $("h2").click(function () {
-      $("span").text(twoTxt);
+      $("p").text(twoTxt);
    });
+
+   // specific index
+
 
 });
