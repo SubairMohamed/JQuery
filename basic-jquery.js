@@ -107,9 +107,18 @@ $(function () {
 $(function () {
 
    // string vaiable
-   let txtReplace = "soo dhawaada dhamaantiin";
+   // let txtReplace = "soo dhawaada dhamaantiin";
+   // $("h2").click(function () {
+   //    $("span").text(txtReplace);
+   // });
+
+   // combine variable
+   let txt1 = "welcome ";
+   let txt2 = " hello";
+   let twoTxt = txt1 + txt2;
+
    $("h2").click(function () {
-      $("p").text(txtReplace);
+      $("span").text(twoTxt);
    });
 
 });
