@@ -123,6 +123,11 @@ $(function () {
 
    // specific index
    let indxNum = 0;
-   $("")
+   $("h3").click(function () {
+      $(".spc").css("background-color", "gray");
+      $(".spc").eq(indxNum).css("background-color", "blue");
+      indxNum++;
+      if (indxNum > 4) {indxNum = 0}
+   });
 
 });
