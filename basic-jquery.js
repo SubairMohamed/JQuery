@@ -91,15 +91,20 @@ $(function () {
    $(".btn:odd").addClass("btn-danger");
 });
 
-$(function () {
+// $(function () {
 
-   //let txtReplace = "soo dhawaada dhamaantiin";
-   var num = 0;
+//    //let txtReplace = "soo dhawaada dhamaantiin";
+//    var num = 0;
    
-   $("h2").click( function () {
-      $("div").text(num);
-      num++;
-      if (num <= 1) {num + 1}
-   });
+//    $("h2").click( function () {
+//       $("div").text(num);
+//       num++;
+//       if (num <= 1) {num + 1}
+//    });
+
+// });
+
+$(function () {
+   let txtReplace = "soo dhawaada dhamaantiin";
 
 });
