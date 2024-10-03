@@ -105,6 +105,11 @@ $(function () {
 // });
 
 $(function () {
+
+   // string vaiable
    let txtReplace = "soo dhawaada dhamaantiin";
+   $("h2").click(function () {
+      $("p").text(txtReplace);
+   });
 
 });
