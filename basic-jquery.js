@@ -118,10 +118,11 @@ $(function () {
    let twoTxt = txt1 + txt2;
 
    $("h2").click(function () {
-      $("p").text(twoTxt);
+      $(".com").text(twoTxt);
    });
 
    // specific index
-
+   let indxNum = 0;
+   $("")
 
 });
