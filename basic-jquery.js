@@ -130,4 +130,9 @@ $(function () {
       if (indxNum > 4) {indxNum = 0}
    });
 
+   //specific index for image
+   let arrImg = ["./img/apple.jpg", "./img/banana.jpg", "./img/guava.jpg"];
+   let Num = 0;
+   
+
 });
