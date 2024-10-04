@@ -1,5 +1,8 @@
 $(document).ready(function () {
-    $("button").click(function () {
-       $("button").css("background-color", "red");
+
+    // Mouse Event Method
+    $("p").click(function () {
+       $(this).hide();
     });
+
 });
