@@ -7,8 +7,14 @@ $(document).ready(function () {
     // });
 
    // dbclick Method 
-   $("p").click(function () {
-    $(this).css("background-color", "green");
-   });
+   // $("p").dbclick(function () {
+   //  $("p").css("background-color", "green");
+   // });
+
+   //mouse enter method
+   // $("p").mouseenter(function () {
+   //    $(this).css("color", "blue");
+   //    alert("welcome to mouse enter");
+   // });
 
 });
