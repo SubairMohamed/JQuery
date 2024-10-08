@@ -23,10 +23,10 @@ $(document).ready(function () {
    // });
 
    // mouse down method
-   $("p").mousedown(function () {
-      $(this).addClass("bg-primary");
-      $(this).addClass("text-white");
-      $(this).addClass("p-5");
-   });
+   // $("p").mousedown(function () {
+   //    $(this).addClass("bg-primary");
+   //    $(this).addClass("text-white");
+   //    $(this).addClass("p-5");
+   // });
 
 });
