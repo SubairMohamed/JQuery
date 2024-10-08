@@ -22,4 +22,11 @@ $(document).ready(function () {
    //    $(this).css("background-color", "yellow")
    // });
 
+   // mouse down method
+   $("p").mousedown(function () {
+      $(this).addClass("bg-primary");
+      $(this).addClass("text-white");
+      $(this).addClass("p-5");
+   });
+
 });
