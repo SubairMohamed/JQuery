@@ -18,8 +18,8 @@ $(document).ready(function () {
    // });
 
    //mouse leave method 
-   $("p").mouseleave(function () {
-      $(this).css("background-color", "yellow")
-   });
+   // $("p").mouseleave(function () {
+   //    $(this).css("background-color", "yellow")
+   // });
 
 });
