@@ -17,4 +17,9 @@ $(document).ready(function () {
    //    alert("welcome to mouse enter");
    // });
 
+   //mouse leave method 
+   $("p").mouseleave(function () {
+      $(this).css("background-color", "yellow")
+   });
+
 });
