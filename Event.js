@@ -36,8 +36,8 @@ $(document).ready(function () {
    // });
 
    // hover method
-   $("p").hover(function () {
-      $(this).css("background-color", "blue");
-   });
+   // $("p").hover(function () {
+   //    $(this).css("background-color", "blue");
+   // });
 
 });
