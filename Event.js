@@ -29,4 +29,10 @@ $(document).ready(function () {
    //    $(this).addClass("p-5");
    // });
 
+   // mouse up method 
+   $("p").mouseup(function () {
+      $(this).css("background-color", "black");
+      $(this).css("color", "white");
+   });
+
 });
