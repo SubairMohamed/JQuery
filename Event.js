@@ -40,4 +40,11 @@ $(document).ready(function () {
    //    $(this).css("background-color", "blue");
    // });
 
+   // On method 
+   // $("p").on("mouseenter", function () {
+   //    $(this).addClass("bg-primary");
+   // });
+   // or 
+
+   
 });
