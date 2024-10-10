@@ -35,4 +35,9 @@ $(document).ready(function () {
    //    $(this).css("color", "white");
    // });
 
+   // hover method
+   $("p").hover(function () {
+      $(this).css("background-color", "blue");
+   });
+
 });
