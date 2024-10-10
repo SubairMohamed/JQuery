@@ -30,9 +30,9 @@ $(document).ready(function () {
    // });
 
    // mouse up method 
-   $("p").mouseup(function () {
-      $(this).css("background-color", "black");
-      $(this).css("color", "white");
-   });
+   // $("p").mouseup(function () {
+   //    $(this).css("background-color", "black");
+   //    $(this).css("color", "white");
+   // });
 
 });
