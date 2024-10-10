@@ -46,5 +46,14 @@ $(document).ready(function () {
    // });
    // or 
 
-   
+   $("p").on({
+      mouseenter: function () {
+      $(this).css("background-color", 'blue');
+      },
+
+      mouseleave: function () {
+      $(this).css("background-color", 'orange');
+      }
+   });
+
 });
