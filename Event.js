@@ -46,14 +46,18 @@ $(document).ready(function () {
    // });
    // or 
 
-   $("p").on({
-      mouseenter: function () {
-      $(this).css("background-color", 'blue');
-      },
+   // $("p").on({
+   //    mouseenter: function () {
+   //    $(this).css("background-color", 'blue');
+   //    },
 
-      mouseleave: function () {
-      $(this).css("background-color", 'orange');
-      }
-   });
+   //    mouseleave: function () {
+   //    $(this).css("background-color", 'orange');
+   //    }
+   // });
+
+   
+   // Keyboard Event Method
+   
 
 });
