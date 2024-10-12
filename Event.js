@@ -58,6 +58,9 @@ $(document).ready(function () {
 
    
    // Keyboard Event Method
-   
+   $(document).keydown(function () {
+      $(".k1").html("this is keyboard event " + event.which);
+      $(".k1").css("color", "blue");
+   });
 
 });
