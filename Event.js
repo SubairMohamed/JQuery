@@ -69,6 +69,8 @@ $(document).ready(function () {
    // });
 
    // Form Events Methods
-   
+   $("#t1").focus(function () {
+      $("#s1").html(" enter your name");
+   });
 
 });
