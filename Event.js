@@ -78,6 +78,11 @@ $(document).ready(function () {
    $("#t1").blur(function () {
       $("#s1").html(" well done!");
       $("#s1").css("color", "green");
+      let num = $("#t1").val();
+      if(num.length < 1) {
+         $("#s1").html(" minimun 3 char is required");
+         $("#s1").css("color", "red");
+      }
    });
 
 });
