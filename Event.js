@@ -63,7 +63,7 @@ $(document).ready(function () {
    //    $(".k1").css("color", "blue");
    // });
 
-   // $(document).keyup(function () {
+   // $(document).keypress(function () {
    //    $(".k2").html("this is keyup " + event.which);
    //    $(".k2").css("color", "green");
    // });
