@@ -71,6 +71,13 @@ $(document).ready(function () {
    // Form Events Methods
    $("#t1").focus(function () {
       $("#s1").html(" enter your name");
+      $("#s1").css("color", "red");
+      $("#s1").css("textTransform", "capitalize");
+   });
+
+   $("#t1").blur(function () {
+      $("#s1").html(" well done!");
+      $("#s1").css("color", "green");
    });
 
 });
