@@ -85,6 +85,10 @@ $(document).ready(function () {
    //    }
    // });
 
+   // $(document).keypress(function () {
+   //    $(".k1").html("this is keypress " + event.which);
+   // });
+
 });
 
 // how to lock text in input
@@ -98,3 +102,4 @@ $(document).ready(function () {
 //       }
 //    });
 // });
+
