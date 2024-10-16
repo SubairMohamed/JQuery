@@ -57,32 +57,32 @@ $(document).ready(function () {
    // });
 
    
-   // Keyboard Event Method
+   //Keyboard Event Method
    // $(document).keydown(function () {
    //    $(".k1").html("this is keyboard event " + event.which);
    //    $(".k1").css("color", "blue");
    // });
 
    // $(document).keypress(function () {
-   //    $(".k2").html("this is keyup " + event.which);
+   //    $(".k2").html("this is keypress " + event.which);
    //    $(".k2").css("color", "green");
    // });
 
    // Form Events Methods
-   $("#t1").focus(function () {
-      $("#s1").html(" enter your name");
-      $("#s1").css("color", "red");
-      $("#s1").css("textTransform", "capitalize");
-   });
+   // $("#t1").focus(function () {
+   //    $("#s1").html(" enter your name");
+   //    $("#s1").css("color", "red");
+   //    $("#s1").css("textTransform", "capitalize");
+   // });
 
-   $("#t1").blur(function () {
-      $("#s1").html(" well done!");
-      $("#s1").css("color", "green");
-      let num = $("#t1").val();
-      if(num.length < 1) {
-         $("#s1").html(" minimun 3 char is required");
-         $("#s1").css("color", "red");
-      }
-   });
+   // $("#t1").blur(function () {
+   //    $("#s1").html(" well done!");
+   //    $("#s1").css("color", "green");
+   //    let num = $("#t1").val();
+   //    if(num.length < 1) {
+   //       $("#s1").html(" minimun 3 char is required");
+   //       $("#s1").css("color", "red");
+   //    }
+   // });
 
 });
