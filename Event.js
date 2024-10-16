@@ -103,3 +103,15 @@ $(document).ready(function () {
 //    });
 // });
 
+
+// how to lock numbers in input
+$(function () {
+   $("#t1").keypress(function (e) {
+      let x = e.which || e.keycode;
+      if (x >= 97 && x <= 122) {
+         return true;
+      } else {
+         return false;
+      }
+   });
+});
