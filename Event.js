@@ -102,13 +102,14 @@ $(document).ready(function () {
 
 });
 
-$(function () {
-   $("#t1").keypress(function (e) {
-      let x = e.which || e.keycode;
-      if (x >= 48 && x <= 57) {
-         return true;
-      } else {
-         return false;
-      }
-   });
-});
+// how to lock text in input
+// $(function () {
+//    $("#t1").keypress(function (e) {
+//       let x = e.which || e.keycode;
+//       if (x >= 48 && x <= 57) {
+//          return true;
+//       } else {
+//          return false;
+//       }
+//    });
+// });
