@@ -85,4 +85,30 @@ $(document).ready(function () {
    //    }
    // });
 
+    // $(document).keypress(function () {
+   //    $(".k2").html("this is keypress " + event.which);
+   //    $(".k2").css("color", "green");
+   // });
+
+   // lock text
+   // $(document).keypress(function () {
+   //    let x = e.which || e.keycode;
+   //    if (x >= 48 && x <= 57) {
+   //       return true;
+   //    } else {
+   //       return false;
+   //    }
+   // });
+
+});
+
+$(function () {
+   $("#t1").keypress(function (e) {
+      let x = e.which || e.keycode;
+      if (x >= 48 && x <= 57) {
+         return true;
+      } else {
+         return false;
+      }
+   });
 });
