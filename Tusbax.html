@@ -9,10 +9,35 @@
     <script src="/jquery.js"></script>
 </head>
 <body>
+    <script>
+      $(document).ready(function () {
+
+        let num = 1;
+        $("#plus").click(function () {
+           $("#txt").val(num);
+           num++;
+           if (num >= 1 ) {num + 1}
+        });
+
+      });
+
+    </script>
+
+
+
+
     <div class="container">
         <input id="plus" type="button" value="Plus">
-        <input id="txt" type="number" value="1">
+        <input id="txt" type="number" value="0">
         <input id="minus" type="button" value="Minus">
     </div>
 </body>
 </html>
+
+<!-- //    var num = 0;
+   
+//    $("h2").click( function () {
+//       $("div").text(num);
+//       num++;
+//       if (num <= 1) {num + 1}
+//    }); -->
