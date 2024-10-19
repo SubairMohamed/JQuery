@@ -11,3 +11,8 @@
     align-items: center; */
 }
 
+.wall {
+    width: 50%;
+    height: 30vh;
+    background: lightblue;
+}
