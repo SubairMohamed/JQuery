@@ -17,3 +17,12 @@
     background: #024CAA;
     border-radius: 10px;
 }
+
+h1 {
+    font-size: 4rem;
+    font-family: "moto", sans-serif;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 1rem 0 0 0;
+}
