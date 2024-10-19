@@ -4,7 +4,7 @@
 }
 .container {
     height: 100vh;
-    background: burlywood;
+    background: #fff;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -13,6 +13,7 @@
 
 .wall {
     width: 40%;
-    height: 30vh;
-    background: lightblue;
+    height: 54vh;
+    background: #024CAA;
+    border-radius: 10px;
 }
