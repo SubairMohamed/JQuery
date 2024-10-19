@@ -11,21 +11,12 @@
 <body>
     <script>
       $(document).ready(function () {
-
-        //let num = 1;
-        //$("#plus").click(function () {
-        //   $("#txt").val(num);
-        //   num++;
-        //   if (num >= 1 ) {num + 1}
-        //});
-    //   $('input').on('click', '.plus-minus', function() {    
-    //     var delta = +this.dataset.value; 
-    //     var total = $('#txt'); 
-    //     
-    //     total.val(+total.val() + delta);
-    // });
-    
-
+ 
+        $(".plus-minus").click(function () {
+          let find = +this.dataset.value;
+          let total = $("#txt");
+          total.val(+total.val() + find);
+        });
 
       });
 
