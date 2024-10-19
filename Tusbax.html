@@ -12,12 +12,19 @@
     <script>
       $(document).ready(function () {
 
-        let num = 1;
-        $("#plus").click(function () {
-           $("#txt").val(num);
-           num++;
-           if (num >= 1 ) {num + 1}
-        });
+        //let num = 1;
+        //$("#plus").click(function () {
+        //   $("#txt").val(num);
+        //   num++;
+        //   if (num >= 1 ) {num + 1}
+        //});
+    //   $('input').on('click', '.plus-minus', function() {    
+    //     var delta = +this.dataset.value; 
+    //     var total = $('#txt'); 
+    //     
+    //     total.val(+total.val() + delta);
+    // });
+    
 
 
       });
@@ -28,9 +35,9 @@
 
 
     <div class="container">
-        <input id="plus" type="button" value="Plus" data-value="1">
+        <input class="plus-minus" id="plus" type="button" value="Plus" data-value="1">
         <input id="txt" type="text" value="0" readonly>
-        <input id="minus" type="button" value="Minus" data-value="-1">
+        <input class="plus-minus" id="minus" type="button" value="Minus" data-value="-1">
     </div>
 </body>
 </html>
