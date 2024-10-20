@@ -33,6 +33,7 @@ h1 {
 .plus-minus {
    font-family: "moto", sans-serif;
    font-size: 1.2rem;
+   background: white;
    border: none;
    padding: .5rem .6rem;
    border-radius: 50%;
@@ -42,4 +43,8 @@ h1 {
     border: none;
     padding: .2rem .4rem;
     border-radius: 4px;
+}
+
+.fa-plus {
+    color: green;
 }
