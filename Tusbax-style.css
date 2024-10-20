@@ -45,6 +45,18 @@ h1 {
     border-radius: 4px;
 }
 
+#clear {
+    width: 150px;
+    font-family: "moto", sans-serif;
+    font-size: 1.4rem;
+    color: #024CAA;
+    text-transform: capitalize;
+    border: 1px solid black;
+    background: white;
+    padding: .2rem .3rem;
+    border-radius: 5px;
+}
+
 .fa-plus {
     color: green;
 }
