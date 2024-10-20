@@ -18,6 +18,10 @@
           total.val(+total.val() + find);
         });
 
+       $("#clear").click(function () {
+        $(':input[type="text"]').val('0');
+       });
+
       });
 
     </script>
@@ -31,7 +35,7 @@
           <input id="txt" type="text" value="0" readonly>
           <button class="plus-minus" id="minus" data-value="-1"><i class="fas fa-minus"></i></button>
         </div>
-        <button id="clear">clear</button>
+        <button class="plus-minus" id="clear" data-value="0">clear</button>
       </div>
     </div>
 </body>
