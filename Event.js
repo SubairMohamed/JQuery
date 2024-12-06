@@ -58,14 +58,18 @@ $(document).ready(function () {
 
    
    //Keyboard Event Method
-   // $(document).keydown(function () {
-   //    $(".k1").html("this is keyboard event " + event.which);
-   //    $(".k1").css("color", "blue");
-   // });
+   $(document).keydown(function () {
+      $(".k1").html("this is keydown " + event.which);
+      $(".k1").css("color", "blue");
+   });
 
    // $(document).keypress(function () {
    //    $(".k2").html("this is keypress " + event.which);
    //    $(".k2").css("color", "green");
+   // });
+
+   // $(document).keyup(function () {
+   //    $(".k3").html("this is a keyup" + event.which);
    // });
 
    // Form Events Methods
