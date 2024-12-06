@@ -58,10 +58,10 @@ $(document).ready(function () {
 
    
    //Keyboard Event Method
-   $(document).keydown(function () {
-      $(".k1").html("this is keydown " + event.which);
-      $(".k1").css("color", "blue");
-   });
+   // $(document).keydown(function () {
+   //    $(".k1").html("this is keydown " + event.which);
+   //    $(".k1").css("color", "blue");
+   // });
 
    // $(document).keypress(function () {
    //    $(".k2").html("this is keypress " + event.which);
