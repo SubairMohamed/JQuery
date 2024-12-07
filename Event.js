@@ -99,7 +99,12 @@ $(document).ready(function () {
    }); 
 
      // table
-     
+     $("#myInput").on("keyup", function () {
+      let people = $(this).val().toLowerCase();
+      $("#mytable tr").filter(function () {
+         $(this).toggle($(this).text().toLowerCase().indexOf(people) > -1);
+      });
+     });
 
 });
 
