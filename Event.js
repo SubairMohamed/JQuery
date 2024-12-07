@@ -89,6 +89,14 @@ $(document).ready(function () {
    //    }
    // });
 
+   // Filters Jquery
+   $("#myinput").on("keyup", function () {
+      let item = $(this).val().toLowerCase();
+      $("#mylist li").filter(function () {
+         $(this).toggle($(this).text().toLowerCase().indexOf(item) > -1);
+      });
+   }); 
+
 });
 
 // how to lock text in input
