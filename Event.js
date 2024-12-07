@@ -98,6 +98,9 @@ $(document).ready(function () {
       });
    }); 
 
+     // table
+     
+
 });
 
 // how to lock text in input
