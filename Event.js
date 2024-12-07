@@ -90,6 +90,7 @@ $(document).ready(function () {
    // });
 
    // Filters Jquery
+      // list
    $("#myinput").on("keyup", function () {
       let item = $(this).val().toLowerCase();
       $("#mylist li").filter(function () {
