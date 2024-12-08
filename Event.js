@@ -106,6 +106,14 @@ $(document).ready(function () {
       });
      });
 
+     //everything
+     $("#every").on("keyup", function () {
+      let all = $(this).val().toLowerCase();
+      $("#mylist *, #mytable tr").filter(function () {
+         $(this).toggle($(this).text().toLowerCase().indexOf(all) > -1);
+      });
+     });
+
 });
 
 // how to lock text in input
